@@ -1,0 +1,19 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+	<script src="script.js"></script>
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+	<meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<input type="radio" id="sum" name ="calc" value="sum"><label for="sum">Сумма всех чисел от x1 до x2</label></br>
+	<input type="radio" id="mul" name="calc" value="mul"><label for="mul">Произведение всех чисел от x1 до x2</label></br>
+	<input type="radio" id="simple" name="calc" value="simple"><label for="simple">Вывести простые числа от x1 до x2</label></br>
+	X1: <input type="text" id="x1"></br>
+	X2: <input type="text" id="x2"></br>
+	<input type="button" value="Run" onclick="buttonClick()">
+	<input type="button" value="Очистить" onclick="clearValues()"></br>
+	<div id="result"></div>
+</body>
+</html>
